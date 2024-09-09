@@ -3,18 +3,35 @@
     xmlns:tools="http://schemas.android.com/tools"
     tools:showIn="navigation_view">
 
-    <group android:checkableBehavior="single">
-        <item
-            android:id="@+id/nav_home"
-            android:icon="@drawable/ic_menu_camera"
-            android:title="@string/menu_home" />
-        <item
-            android:id="@+id/nav_gallery"
-            android:icon="@drawable/ic_menu_gallery"
-            android:title="@string/menu_gallery" />
-        <item
-            android:id="@+id/nav_slideshow"
-            android:icon="@drawable/ic_menu_slideshow"
-            android:title="@string/menu_slideshow" />
-    </group>
+    <item
+        android:id="@+id/submenu_animations"
+        android:title="@string/submenu_title_animations" >
+        <menu>
+            <item
+                android:id="@+id/nav_motion_layout"
+                android:icon="@drawable/ic_menu_slideshow"
+                android:title="@string/motion_layout" />
+            <item
+                android:id="@+id/nav_object_animator"
+                android:icon="@drawable/ic_menu_slideshow"
+                android:title="@string/object_animator" />
+            <item
+                android:id="@+id/property_animations"
+                android:icon="@drawable/ic_menu_slideshow"
+                android:title="@string/view_property_animator" />
+            <item
+                android:id="@+id/transition_manager_animations"
+                android:icon="@drawable/ic_menu_slideshow"
+                android:title="@string/transition_manager" />
+            <item
+                android:id="@+id/vector_based_animations"
+                android:icon="@drawable/ic_menu_slideshow"
+                android:title="@string/vector_based_animations" />
+        </menu>
+    </item>
+
+    <item
+        android:id="@+id/submenu_firebase"
+        android:title="@string/submenu_title_firebase" >
+    </item>
 </menu>

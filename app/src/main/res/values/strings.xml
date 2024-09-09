@@ -10,4 +10,14 @@
     <string name="menu_home">Home</string>
     <string name="menu_gallery">Gallery</string>
     <string name="menu_slideshow">Slideshow</string>
+    <string name="menu_title_animations">Animations</string>
+    <string name="submenu_title_animations">Animations</string>
+    <string name="submenu_title_firebase">Firebase</string>
+    <string name="motion_layout">MotionLayout</string>
+    <string name="object_animator">ObjectAnimator</string>
+    <string name="view_property_animator">ViewPropertyAnimator</string>
+    <string name="transition_manager">TransitionManager</string>
+    <string name="vector_based_animations">Animated Vector Graphics</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>

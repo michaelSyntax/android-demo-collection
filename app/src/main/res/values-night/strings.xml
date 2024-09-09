@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="menu_title_animations">Animations</string>
+    <string name="submenu_title_animations">Animations</string>
+    <string name="submenu_title_firebase">Firebase</string>
+    <string name="motion_layout">MotionLayout</string>
+    <string name="object_animator">ObjectAnimator</string>
+    <string name="transition_manager">TransitionManager</string>
+    <string name="vector_based_animations">Animated Vector Graphics</string>
+</resources>
