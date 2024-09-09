@@ -3,29 +3,29 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/mobile_navigation"
-    app:startDestination="@id/animatedVectorGraphicsFragment">
+    app:startDestination="@id/nav_animations_motion_layout">
     <fragment
-        android:id="@+id/animatedVectorGraphicsFragment"
+        android:id="@+id/nav_animations_vector"
         android:name="com.example.democollection.view.animations.AnimatedVectorGraphicsFragment"
         android:label="fragment_animated_vector_graphics"
         tools:layout="@layout/fragment_animated_vector_graphics" />
     <fragment
-        android:id="@+id/motionLayoutFragment"
+        android:id="@+id/nav_animations_motion_layout"
         android:name="com.example.democollection.view.animations.MotionLayoutFragment"
         android:label="fragment_motion_layout"
         tools:layout="@layout/fragment_motion_layout" />
     <fragment
-        android:id="@+id/objectAnimatorFragment"
+        android:id="@+id/nav_animations_object_animator"
         android:name="com.example.democollection.view.animations.ObjectAnimatorFragment"
         android:label="fragment_object_animator"
         tools:layout="@layout/fragment_object_animator" />
     <fragment
-        android:id="@+id/viewPropertyAnimatorFragment"
+        android:id="@+id/nav_animations_property"
         android:name="com.example.democollection.view.animations.ViewPropertyAnimatorFragment"
         android:label="fragment_view_property_animator"
         tools:layout="@layout/fragment_view_property_animator" />
     <fragment
-        android:id="@+id/transitionManagerFragment"
+        android:id="@+id/nav_animations_transition_manager"
         android:name="com.example.democollection.view.animations.TransitionManagerFragment"
         android:label="fragment_transition_manager"
         tools:layout="@layout/fragment_transition_manager" />
