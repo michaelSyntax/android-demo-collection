@@ -9,7 +9,6 @@ import com.example.democollection.R
 import com.example.democollection.databinding.FragmentAnimatedVectorGraphicsBinding
 import com.example.democollection.databinding.FragmentMotionLayoutBinding
 
-
 class MotionLayoutFragment : Fragment() {
     private lateinit var vb: FragmentMotionLayoutBinding
 
